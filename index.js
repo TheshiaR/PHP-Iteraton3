@@ -1,5 +1,8 @@
 let cat = document.getElementById('cat');
+let catsound = document.getElementById('cat-miau');
 
-let sound = function miau() {
-    cat.
+function miau() {
+    catsound.play();
 }
+
+cat.addEventListener('click', miau);
